@@ -16,4 +16,5 @@ from .hash import *
 from .helper import *
 from .ripemd import *
 from .rpc import *
+from .rpcauth import *
 from .sign import *
