@@ -2,12 +2,12 @@
 # pip3 install secp256k1
 # https://https://pypi.org/project/secp256k1
 
-import os, sys
+import os, platform, sys
 
-if(os.sep == '/'):
-    from secp256k1 import PrivateKey
-else:
+if(platform.system() == "Windows"):
     from secp256k1Crypto import PrivateKey
+else:
+    from secp256k1 import PrivateKey
 
 from .encoder  import encode_sighash
 
