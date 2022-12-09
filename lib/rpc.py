@@ -67,7 +67,10 @@ class RpcSocket:
     def check(self):
         res = self.call('getblockchaininfo')
         return 'chain' in res
-
+    
+    def getChain(self):
+        res = self.call('getblockchaininfo')
+        return res
 
     def isWalletLoaded(self):
         wallets = self.call('listwallets')
