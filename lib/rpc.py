@@ -79,6 +79,14 @@ class RpcSocket:
     def getBlock(self, cur_hash):
         res = self.call('getblock', cur_hash)
         return res
+    
+    def getBlockStats(self, cur_hash):
+        res = self.call('getblockstats', cur_hash)
+        return res
+    
+    def getBlockCount(self):
+        res = self.call('getblockcount')
+        return res
 
     def isWalletLoaded(self):
         wallets = self.call('listwallets')
