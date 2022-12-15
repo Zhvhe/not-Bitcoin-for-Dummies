@@ -1,4 +1,4 @@
-# bitcoin_class_project
+# not-Bitcoin-for-Dummies: a project for Blockchains Fall 2022
  
 Step by step instructions on Bitcoin basics in a Python notebok format.
 
