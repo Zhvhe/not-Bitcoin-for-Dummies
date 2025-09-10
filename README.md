@@ -1,6 +1,6 @@
 # not-Bitcoin-for-Dummies: a project for Blockchains Fall 2022
  
-Step by step instructions on Bitcoin basics in a Python notebok format.
+Step by step instructions on Bitcoin basics in a Python notebook format.
 
 Will need to have python3 installed and be able to run notebooks.
 The rest of the setup should be obvious when running through the notebook.
